@@ -1,0 +1,27 @@
+/* .els-logo-slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%; */
+/* } */
+
+/* .els-logo-item {
+    padding: 10px;
+    text-align: center;
+} */
+.logo-v-center .slick-track{
+    display: flex!important;
+    align-items: center!important;
+}
+
+.els-logo-item img {
+    max-width: 100px;
+    height: auto;
+}
+.slick-prev, .slick-next {
+    top: 42%!important;
+    width: 30px!important;
+    height: 30px!important;
+    padding: 6px!important;
+    background: #000000!important;
+    border-radius: 50%!important;
+}
