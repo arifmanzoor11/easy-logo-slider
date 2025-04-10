@@ -44,6 +44,49 @@ Use the following shortcode in **any page or post**:
 [easy_logo_slider slides_to_show="3" autoplay="true" autoplay_speed="3000"]
 ```
 
+## Shortcode Usage
+
+Use the `[easy_logo_slider]` shortcode to display the logo slider anywhere on your site. The shortcode supports several customization options:
+
+### Basic Usage
+```
+[easy_logo_slider]
+```
+
+### Advanced Usage with Custom Parameters
+```
+[easy_logo_slider 
+    slides_to_show="4"
+    slides_to_scroll="1"
+    autoplay="true"
+    autoplay_speed="3000"
+    max_width="160px"
+    width="200px"
+    height="200px"
+    object_fit="contain"
+]
+```
+
+### Available Parameters
+
+| Parameter | Default Value | Description |
+|-----------|--------------|-------------|
+| slides_to_show | 4 | Number of slides to display at once |
+| slides_to_scroll | 1 | Number of slides to scroll at a time |
+| autoplay | true | Enable/disable automatic sliding |
+| autoplay_speed | 3000 | Time between slides in milliseconds |
+| max_width | 160px | Maximum width of logo images |
+| width | 200px | Width of logo images |
+| height | 200px | Height of logo images |
+| object_fit | contain | CSS object-fit property for images |
+
+### Example with Custom Image Dimensions
+```
+[easy_logo_slider max_width="180px" width="250px" height="150px" object_fit="cover"]
+```
+
+---
+
 ### **Shortcode Parameters**  
 | Parameter        | Default  | Description |
 |-----------------|---------|-------------|
