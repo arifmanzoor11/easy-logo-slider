@@ -3,7 +3,7 @@
  * Plugin Name:       Easy Logo Slider
  * Plugin URI:        https://guitarchordslyrics.com/easy-logo-slider
  * Description:       A lightweight and responsive logo slider using a custom post type and shortcode. Supports autoplay, custom scrolling speeds, and Slick Carousel.
- * Version:           2.0
+ * Version:           2.1
  * Author:            Arif M.
  * Author URI:        https://guitarchordslyrics.com
  * License:           GPL-2.0+

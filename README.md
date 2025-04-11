@@ -1,7 +1,7 @@
 # **Easy Logo Slider Plugin**  
 
-**Version:** 1.0  
-**Author:** Arti B.  
+**Version:** 2.0  
+**Author:** Arif M.  
 **Requires WordPress Version:** 5.0+  
 **Tested up to:** 6.4+  
 **Requires PHP Version:** 7.2+  
@@ -14,7 +14,14 @@ The **Easy Logo Slider** plugin is a simple and lightweight solution for display
 ✔️ Fully responsive and mobile-friendly  
 ✔️ Uses **Slick Carousel** for smooth animations  
 ✔️ Supports autoplay, custom scroll speeds, and infinite looping  
-✔️ Works with the **Custom Post Type (CPT) `els_logo`** for easy logo management  
+✔️ Custom breakpoints for tablet and mobile devices  
+✔️ Customizable navigation arrows and dots  
+✔️ Custom image dimensions and object-fit properties  
+✔️ Multiple sliders on the same page  
+✔️ Custom ordering of logos  
+✔️ Lightweight and fast loading  
+✔️ SEO-friendly image handling  
+✔️ Touch-swipe support for mobile devices  
 
 ---
 
@@ -163,10 +170,14 @@ Some plugins may load their own version of jQuery or interfere with Slick Carous
 
 # **Changelog**  
 
-### **Version 1.0**  
-- ✅ Initial Release  
-- ✅ Shortcode support for easy embedding  
-- ✅ Basic styling & customization options  
+### **Version 2.0**  
+- ✅ Updated Features  
+- ✅ Added support for custom breakpoints  
+- ✅ Added customizable navigation arrows and dots  
+- ✅ Enhanced image dimension and object-fit properties  
+- ✅ Support for multiple sliders on the same page  
+- ✅ Improved SEO-friendly image handling  
+- ✅ Added touch-swipe support for mobile devices  
 
 ---
 
@@ -174,6 +185,13 @@ Some plugins may load their own version of jQuery or interfere with Slick Carous
 🚀 Add **custom post fields** for logo links  
 🚀 Provide **more transition effects**  
 🚀 Add **widget support**  
+🚀 Add **custom CSS classes** for individual slides  
+🚀 Implement **lazy loading** for better performance  
+🚀 Add **RTL support** for right-to-left languages  
+🚀 Create **template overrides** for theme customization  
+🚀 Add **import/export** functionality for logos  
+🚀 Implement **category support** for logo grouping  
+🚀 Add **accessibility improvements** for screen readers  
 
 ---
 

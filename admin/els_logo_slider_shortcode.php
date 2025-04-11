@@ -10,9 +10,12 @@ function els_logo_slider_shortcode($atts) {
         'max_width' => '160px',
         'width' => '200px',
         'height' => '200px',
-        'object_fit' => 'contain'
+        'object_fit' => 'contain',
+        'slides_to_show_tablet' => 2,
+        'slides_to_show_mobile' => 1,
+        'show_arrows' => true,
+        'show_dots' => true,
     ), $atts);
-
     // Start output buffering
     ob_start();
 
@@ -45,6 +48,10 @@ function els_logo_slider_shortcode($atts) {
         echo '<div id="' . $slider_id . '" class="els-logo-slider logo-v-center"
             data-slides-to-show="' . esc_attr($atts['slides_to_show']) . '"
             data-slides-to-scroll="' . esc_attr($atts['slides_to_scroll']) . '"
+            data-slides-in-tablet="' . esc_attr($atts['slides_to_show_tablet']) . '"
+            data-slides-in-mobile="' . esc_attr($atts['slides_to_show_mobile']) . '"
+            show-arrows="' . esc_attr($atts['show_arrows']) . '"
+            show-dots="' . esc_attr($atts['show_dots']) . '"
             data-autoplay="' . esc_attr($atts['autoplay']) . '"
             data-autoplay-speed="' . esc_attr($atts['autoplay_speed']) . '">';
 
